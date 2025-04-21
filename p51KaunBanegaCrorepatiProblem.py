@@ -20,7 +20,7 @@ money=0
 print("Welcome to Kaun Banega Crorepati ")
 print("Your game begins:\n")
 print("The questions is given in your screen\n\n")
-prize=[5000,10000,50000,100000,150000]
+prize=[50000,100000,500000,1000000,1500000]
 for i in range(0,5):
     print(ques[i])
     print(op[i])
@@ -34,6 +34,5 @@ for i in range(0,5):
         print("The total amount you won is:",money)
         print("Thank you")
         break
+print("Congratulations!!🎉🎉🎉\nYou are the Winner of Kon Banega Crorepati")
 print("Total Winning:",money)
-
-
